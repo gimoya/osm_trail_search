@@ -590,7 +590,7 @@ class TerrainMap {
                             <div class="popup-content">
                                 <div class="popup-title">${trail.properties.name}</div>
                                 <div class="popup-details">
-                                    ${difficultyText}<br>
+                                    ${difficultyText}
                                     Surface: ${trail.properties.surface}<br>
                                     Length: ${trail.properties.length}
                                 </div>
@@ -611,4 +611,6 @@ class TerrainMap {
 // Initialize when page loads
 document.addEventListener('DOMContentLoaded', () => {
     new TerrainMap();
-}); 
+});
+
+
